@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  ExpenseCodeModule:
+    image: falcon007/ExpenseCodeModule:1.0.0
+    ports:
+      - "8885:8885"
+volumes:
+  installation:
+     external: false
